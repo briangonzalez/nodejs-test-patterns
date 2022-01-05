@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-test-patterns",
+  "scripts": {
+    "start": "ts-node src",
+    "test": "jest"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfig": {
+          "importHelpers": true
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.16.7",
+    "@babel/preset-typescript": "7.16.7",
+    "@types/jest": "27.4.0",
+    "jest": "27.4.6",
+    "ts-jest": "27.1.2"
+  }
+}
